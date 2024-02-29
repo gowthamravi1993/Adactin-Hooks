@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.240753">
+    <testcase classname="To validate hotels continuepage functionality" name="To enter the invalid credit card number" time="16.240753">
+        <system-out><![CDATA[Given user launch Adactin application.......................................passed
+And user enter username and password........................................passed
+And user click login button.................................................passed
+And user see the next page Welcome to Adactin Group of Hotels...............passed
+And user enter the location,hotel,roomtype,numberofrooms....................passed
+And user enter the check in date and check out date.........................passed
+And user enter the adults per room,childrens per room.......................passed
+And user click search button................................................passed
+And user see the message next page of the select page.......................passed
+And user select the hotel...................................................passed
+And user click continue button..............................................passed
+When user enter the firstname,lastname,Address,invalid credit card number...passed
+And user select the credit card type,expiry month,expiry year,enter the cvv number.passed
+And user click book now button..............................................passed
+Then user see the error message.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
